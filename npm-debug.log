@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.9
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart copy-blocks@0.0.0
+6 info start copy-blocks@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 silly exec sh "-c" "echo \"open localhost:8080\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
+9 silly sh,-c,echo "open localhost:8080" && ./node_modules/.bin/browservefy index.js 8080 -- -d,/Applications/MAMP/htdocs/copy-blocks spawning
+10 info copy-blocks@0.0.0 Failed to exec start script
+11 error copy-blocks@0.0.0 start: `echo "open localhost:8080" && ./node_modules/.bin/browservefy index.js 8080 -- -d`
+11 error `sh "-c" "echo \"open localhost:8080\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"` failed with 1
+12 error Failed at the copy-blocks@0.0.0 start script.
+12 error This is most likely a problem with the copy-blocks package,
+12 error not with npm itself.
+12 error Tell the author that this fails on your system:
+12 error     echo "open localhost:8080" && ./node_modules/.bin/browservefy index.js 8080 -- -d
+12 error You can get their info via:
+12 error     npm owner ls copy-blocks
+12 error There is likely additional logging output above.
+13 error System Darwin 11.4.2
+14 error command "node" "/usr/local/bin/npm" "start"
+15 error cwd /Applications/MAMP/htdocs/copy-blocks
+16 error node -v v0.8.9
+17 error npm -v 1.1.62
+18 error code ELIFECYCLE
+19 verbose exit [ 1, true ]
