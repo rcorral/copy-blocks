@@ -1,0 +1,8 @@
+{
+  "name": "copy",
+  "version": "0.0.1",
+  "dependencies": {
+    "voxel-engine": "0.5.3",
+    "painterly-textures": "0.0.3"
+  }
+}
